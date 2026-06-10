@@ -14,7 +14,8 @@ The plugin is enabled at the **project level** via [`.claude/settings.json`](../
   "extraKnownMarketplaces": {
     "thedotmack": {
       "source": "github",
-      "repo": "thedotmack/claude-mem"
+      "repo": "thedotmack/claude-mem",
+      "ref": "v13.4.2"
     }
   },
   "enabledPlugins": {
@@ -22,6 +23,10 @@ The plugin is enabled at the **project level** via [`.claude/settings.json`](../
   }
 }
 ```
+
+The `ref` pins the marketplace to the `v13.4.2` git tag, so everyone gets the
+same plugin version. To upgrade, bump `ref` to a newer tag (see the
+[releases](https://github.com/thedotmack/claude-mem/releases)).
 
 When you open this repo in Claude Code, it will recognize the `thedotmack`
 marketplace and prompt you to trust/install the `claude-mem` plugin. Once

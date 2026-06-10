@@ -2,7 +2,8 @@
   "extraKnownMarketplaces": {
     "thedotmack": {
       "source": "github",
-      "repo": "thedotmack/claude-mem"
+      "repo": "thedotmack/claude-mem",
+      "ref": "v13.4.2"
     }
   },
   "enabledPlugins": {
