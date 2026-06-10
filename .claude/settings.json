@@ -1,0 +1,11 @@
+{
+  "extraKnownMarketplaces": {
+    "thedotmack": {
+      "source": "github",
+      "repo": "thedotmack/claude-mem"
+    }
+  },
+  "enabledPlugins": {
+    "claude-mem@thedotmack": true
+  }
+}
